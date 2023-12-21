@@ -82,7 +82,7 @@ spec:
                 key: site-key
         {{- end }}
 {{- end }}
-          - name: AGENT_CONTAINER_NAME
+          - name: S1_CONTAINER_NAME
             value: "{{ include "agent.container_name" . }}"
           ports:
             - name: https
